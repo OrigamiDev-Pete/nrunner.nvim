@@ -36,11 +36,11 @@ require'nrunner'.setup {
 }
 ```
 ## Commands
-`NRun` Run the project with the set run command. Takes an optional argument to pass to the run command.
+`:NRun` Run the project with the set run command. Takes an optional argument to pass to the run command.
 
-`NBuild` Build the project with the set build command. Takes an optional argument to pass to the  buidl command.
+`:NBuild` Build the project with the set build command. Takes an optional argument to pass to the  buidl command.
 
-`NRunSetRunner` Set the NRunner file. Expects a valid file path.
+`:NRunSetRunner` Set the NRunner file. Expects a valid file path.
 
 ## Mappings
 Default keymaps. These can be disabled by change the `use_keymaps` field to false in `Setup()`
